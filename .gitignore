@@ -66,6 +66,7 @@ dist/
 
 .idea
 .vscode
+*.idea/
 */.idea/
 /node_modules/
 
