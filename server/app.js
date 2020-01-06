@@ -56,7 +56,7 @@ io.on('connection', socket => {
         }catch(err){
             console.log(err.message, err);
         }
-        content = content.substring(0,100);
+        // content = content.substring(0,100);
         let chatObj;
         try{
             const user = await UserModel.findOne({id: user_id});
