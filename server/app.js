@@ -81,5 +81,5 @@ io.on('connection', socket => {
 
 router(app)
 app.use(history());
-app.use(express.static('./public'));
+app.use(express.static('./build'));
 server.listen(config.port);
